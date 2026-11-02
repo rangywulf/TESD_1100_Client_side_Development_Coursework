@@ -5,9 +5,46 @@
    Tutorial 2
    Coding Challenge 2
 
-   Author: 
-   Date:   
+   Author: Jess Stubbs
+   Date:   11/02/2026
    
    Filename: code2-2.css
 
 */
+
+/* Header */
+header > h1 {
+   text-align: center;
+   font-family: Impact, sans-serif;
+   font-size: 3em;
+}
+
+/* Nav */
+nav > h1 {
+   font-size: 1.2em;
+   color: white;
+   background-color: black;
+   text-align: center;
+}
+
+nav > ul {
+   list-style-type: none;
+   line-height: 2em;
+}
+
+/* Article */
+article > h1 {
+   font-size: 2em;
+   font-family: cursive;
+}
+
+/* Hypertext */
+
+a:link {
+   color: ivory;
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
