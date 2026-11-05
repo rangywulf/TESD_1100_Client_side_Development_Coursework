@@ -1,0 +1,31 @@
+﻿@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 4
+   Coding Challenge 2
+
+   Author: Jess Stubbs
+   Date:   11/05/2026
+   
+   Filename: code4-2_grad.css
+
+*/
+
+/* Step 3 */
+h1, h2 {
+   text-shadow: white -2px -2px 3px;
+}
+
+/* Step 4 */
+p {
+   text-shadow: red 2px 2px 3px;
+}
+
+/* Step 5 - 7 */
+article {
+   box-shadow: inset black 0px 0px 50px 20px;
+   border-radius: 150px;
+   background: url(landscape.png) bottom right / 100% no-repeat,
+               linear-gradient(165deg, rgb(0, 0, 200) 65%, rgb(211, 0, 55) 75%, yellow 82%);
+}
