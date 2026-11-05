@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 4
+   Tutorial Case
+   
+   Visual Effects Style Sheet for Photo Page at Tree and Book
+   Author: Jess Stubbs
+   Date:   11/05/2026
+   
+   Filename: tb_visual2.css
+
+*/
+
+
+/* Transformation Styles */
+figure#figure1 {
+   filter: sepia(0.8);
+   transform: rotateX(30deg) translateZ(50px);
+   box-shadow: rgb(51, 51, 51) 0px 10px 25px;
+}
+
+figure#figure2 {
+   filter: grayscale(1);
+   transform: rotate(-40deg) scale(0.8, 0.8) rotateZ(20deg) rotateY(60deg) translate(20px, -100px);
+   box-shadow: rgb(101, 101, 101) 10px 10px 25px;
+}
+
+figure#figure3 {
+   filter: saturate(1.5) contrast(1.2);
+   transform: rotate(10deg) scale(0.9, 0.9) translateY(-120px) rotateY(-70deg) translateZ(-20px);
+   box-shadow: rgb(101, 101, 101) 10px -10px 25px;
+}
+
+article {
+   perspective: 600px;
+}
+
+/* Filter Styles */
+
+
+
+
+
+
+
+
+
+
